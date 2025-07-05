@@ -4,9 +4,9 @@ html, body {
 }
 
 #master {
-    height: 75%;
+    height: 90%;
     vertical-align: baseline;
-    padding-top: 10%;
+    padding-top: 2%;
 }
 
 #root {
@@ -17,13 +17,22 @@ html, body {
     color: white;
     text-align: center;
     position: relative;
-    top: -15%;
+    top: -12%;
+    margin-bottom: 0;
 }
 
 .holder {
     display: flex;
     margin: auto;
     width: fit-content;
+    width: 100%;
+}
+
+.colour-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;    
 }
 
 button {
